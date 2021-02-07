@@ -1,0 +1,94 @@
+.feedback-checkbox
+{
+	margin-bottom:15px;
+	display:block;
+	font-size:13px
+}
+
+.feedback-checkbox:last-child
+{
+	margin-bottom:10px
+}
+
+.checked-orange:checked
+{
+	background-color:#e86b32!important
+}
+
+.feedback-modal-pos,.uk-open>.feedback-modal-pos
+{
+	position:absolute!important;
+	left:15px!important;
+	bottom:40px!important
+}
+
+@media (max-width:640px)
+{
+	.feedback-modal-pos,.uk-open>.feedback-modal-pos
+	{
+		left:0!important
+	}
+}
+
+.feedback-wrapper
+{
+	position:fixed;
+	left:15px;
+	bottom:50px;
+	z-index:3
+}
+
+.feedback-on-create-event
+{
+	bottom:115px
+}
+
+@media (max-width:640px)
+{
+	.feedback-on-create-event
+	{
+		bottom:80px
+	}
+}
+
+.feedback-button
+{
+	padding:10px;
+	background:#e86b32;
+	border-radius:50px;
+	color:#fff;
+	font-size:10px;
+	text-transform:uppercase;
+	font-weight:500;
+	border:3px solid rgba(232,107,50,.5);
+	background-clip:padding-box;
+	outline:0;
+	-webkit-animation:feedback-animation 1s infinite;animation:feedback-animation 1s infinite
+}
+
+@-webkit-keyframes feedback-animation
+{
+	0%
+	{
+		border:5px solid rgba(232,107,50,0)}20%
+		{
+			border:5px solid rgba(232,107,50,.4)
+		}
+
+		40%
+		{
+			border:5px solid rgba(232,107,50,.8)
+		}
+
+		80%
+		{
+			border:5px solid rgba(232,107,50,.4)
+		}
+
+		to
+		{
+			border:5px solid rgba(232,107,50,0)
+		}
+	}
+
+	@keyframes feedback-animation{0%{border:5px solid rgba(232,107,50,0)}20%{border:5px solid rgba(232,107,50,.4)}40%{border:5px solid rgba(232,107,50,.8)}80%{border:5px solid rgba(232,107,50,.4)}to{border:5px solid rgba(232,107,50,0)}}.icon-feedback-rating{outline:none;border:none;background:transparent;cursor:pointer}.feedback-rating>label{display:inline-block;margin-right:5px}.feedback-rating>label:last-child{display:inline-block;margin-right:0}.feedback-rating>label>input{visibility:hidden;position:absolute}.feedback-rating>label>img{border-radius:50%;border:2px solid transparent}.feedback-rating>label>input:checked+img{border:2px solid #e86b32}.feedback-back-step{font-size:13px;font-weight:700;cursor:pointer}.feedback-textarea{width:100%;font-size:13px;outline:0}.feedback-textarea,.feedback-textarea:focus{border:1px solid #ededed}

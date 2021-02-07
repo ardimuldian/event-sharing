@@ -1,0 +1,1 @@
+Aplikasi ini dibuat untuk memenuhi tugas mata kuliah Rekayasa Perangkat Lunak. Sistem dari platform ini adalah event gratis yang semua orang bisa ikuti tanpa beban membayar.

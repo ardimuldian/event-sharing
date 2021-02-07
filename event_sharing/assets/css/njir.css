@@ -1,0 +1,54 @@
+.org-ava{
+      height: 70px;
+      max-height: 70px;
+      overflow: hidden;
+      border-radius: 5px;
+    }
+    .text-medium{
+      font-size: .85rem;
+    }
+    .text-small{
+      font-size: .75rem;
+    }
+    .text-light{
+      font-weight: 300;
+    }
+    a.orange:hover{
+      color: #e86b36;
+    }
+    .uk-child-width-expand li.uk-active a{
+      position: relative;
+    }
+    .uk-child-width-expand li.uk-active a:after{
+      left: 0px !important;
+      right: 0px !important;
+    }
+    .shortcut-bottom-menu-container #shortcut-bottom-menu {
+      top: -30px;
+      position: absolute;
+      z-index: -2;
+    }
+    .shortcut-bottom-menu-container #shortcut-bottom-menu:hover {
+      top: -128px;
+    }
+    .shortcut-bottom-menu-container .masking-menu-shortcut{
+      background-color: #f4f4f4;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 180px;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .fix-fix {
+      display: inline-block;
+    }
+    .empty-content-mess {
+      font-size: 15px;
+      text-align: center;
+      color: #595959;
+    }
+    .footer-action .sub-total-container {
+      padding-top: 15px;
+    }

@@ -1,0 +1,29 @@
+#content-dashboard,#dashboard-sidebar
+{
+	z-index:1
+}
+
+.uk-notification-message-success
+{
+	color:#595959!important;background-color:#b2e87ad9!important;border-radius:7px!important
+}
+
+.uk-notification-message-success .fa-check-circle
+{
+	color:#53bea6;font-size:1.5em
+}
+
+.uk-notification-message-danger
+{
+	color:#595959!important;background-color:#f6c0c2f0!important;border-radius:7px!important
+}
+
+.uk-notification-message-danger .fa-exclamation-circle
+{
+	color:#f3575a;font-size:1.5em
+}
+
+.margin-bottom-mobile
+{
+	margin-bottom:65px
+}

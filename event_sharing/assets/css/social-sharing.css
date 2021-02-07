@@ -1,0 +1,22 @@
+.social-sharing a:hover{
+  text-decoration: none;
+}
+@media  only screen and (max-width: 640px) {
+  body {
+    font-size: 0.8rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  .count-down {
+    font-size: 1rem;
+  }
+  .count-down-notes {
+    font-size: 11px;
+    margin-left: 10px;
+  }
+  .gopay-qr {
+    margin-left: 0;
+    max-width: 100%;
+  }
+}

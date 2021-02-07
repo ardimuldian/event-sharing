@@ -1,0 +1,188 @@
+.gray:before {
+  color: #a7a7a7;
+}
+.uk-button-small {
+  padding: 0 7px;
+  margin: 0 3px;
+  border-radius: 3px;
+}
+.title-event {
+  font-size: 2rem;
+}
+
+/* event category */
+.category-tag-button {
+  padding: 7px 20px;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  color: white;
+}
+.category-tag-button:hover {
+  text-decoration: none;
+}
+.category-tag-button::before,
+.category-tag-button::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  left: -5px;
+  top: 10px;
+  border-radius: 50%;
+}
+.category-tag-button::after {
+  right: -4px;
+  left: inherit;
+}
+.button-rounded {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+/* tickets */
+.ticket-barcode {
+  padding: 20px 15px 20px 30px;
+  border-radius: 7px 0 0 5px;
+  border-width: 2px;
+  border-right-style: dashed;
+}
+.ticket-body {
+  padding: 20px;
+  border: 2px solid #d7d7d7;
+  border-radius: 0 7px 7px 0;
+  border-left: none;
+}
+.gray:before {
+  color: #a7a7a7;
+}
+.uk-button-small {
+  padding: 0 7px;
+  margin: 0 3px;
+  border-radius: 3px;
+}
+.uk-button-small.uk-box-shadow {
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.08);
+}
+.ticket-barcode:before {
+  content: '';
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  left: -2px;
+  top: 40%;
+  border-bottom-right-radius: 75px;
+  border-top-right-radius: 75px;
+  border: 2px solid #d7d7d7;
+  border-left: 0;
+  background-color: #fff;
+}
+.ticket-body:before {
+  content: '';
+  width: 17px;
+  height: 10px;
+  position: absolute;
+  top: -2px;
+  left: -10px;
+  background-color: white;
+  border-bottom-left-radius: 75px;
+  border-bottom-right-radius: 75px;
+  border: 1px solid #d7d7d7;
+  border-top: 0;
+}
+.ticket-body:after {
+  content: '';
+  width: 17px;
+  height: 10px;
+  position: absolute;
+  bottom: -2px;
+  left: -10px;
+  background-color: white;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  border: 1px solid #d7d7d7;
+  border-bottom: 0;
+}
+.plus-minus-input input {
+  padding: 0 25px 0 55px;
+  border: none;
+  text-align: center;
+}
+.plus-minus-input {
+  border: 1px solid #d7d7d7;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 3px;
+  margin: 0px -15px 0 30px;
+}
+.plus-minus-input .uk-form-icon {
+  border: 1px solid #d7d7d7;
+  margin: -2px;
+  background-color: #f4f4f4;
+}
+.ticket-category {
+  margin-bottom: 25px;
+  margin-top: -2px !important;
+}
+
+/* footer action */
+.footer-action {
+  z-index: 2;
+  background-color: #f4f4f4;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.huge-icon {
+  font-size: 3em;
+}
+
+/* share button */
+.share-button {
+  position: fixed;
+  top: 30px;
+  /* left: -25px; */
+  margin-left: -65px;
+}
+.share-button li a {
+  padding: 10px 0;
+}
+.share-button img,
+.share-thumb img {
+  max-height: 24px;
+  max-width: 24px;
+}
+
+/* list ticket available */
+.dropdown-list .uk-dropdown {
+  padding: 5px;
+  width: 50px;
+  min-width: 20px;
+  max-height: 135px;
+  overflow: scroll
+}
+.dropdown-list .icon-loket-minus {
+  left: -40px;
+  border: 1px solid #d7d7d7;
+  background-color: #f4f4f4;
+  border-radius: 10px 0 0 10px;
+}
+.dropdown-list .icon-loket-add-field2 {
+  right: -40px;
+  border: 1px solid #d7d7d7;
+  background-color: #f4f4f4;
+  border-radius: 0 10px 10px 0;
+}
+.btn-qty input {
+  border: none;
+  font-size: 14px;
+  width: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.map iframe {
+  width: 100%;
+  min-height: 250px;
+}
